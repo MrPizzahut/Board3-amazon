@@ -6,9 +6,9 @@
 	
 	Class.forName("oracle.jdbc.driver.OracleDriver");
 	
-	String url = "jdbc:oracle:thin:@localhost:1521:orcl";
-	String id = "system";
-	String pass = "1234";
+	String url = "jdbc:oracle:thin:@orcl.ctsaq7jylp2v.ap-northeast-1.rds.amazonaws.com:1521:orcl";
+	String id = "root";
+	String pass = "19871982";
 	
 	String name = request.getParameter("name");
 	String password = request.getParameter("password");
