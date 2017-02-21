@@ -9,7 +9,7 @@ Class.forName("oracle.jdbc.driver.OracleDriver");
 
 String url = "jdbc:oracle:thin:@orcl.ctsaq7jylp2v.ap-northeast-1.rds.amazonaws.com:1521:orcl";
 String id = "root";
-String pass = "19871982";
+String pass = "------";
 
 String password =request.getParameter("password");
 String passworddb="";
